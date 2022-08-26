@@ -19,7 +19,7 @@ class Video{
 
     function getVideoInfo(){
         // echo "This is an" .$this->type . "Video and it's duration is " . $this->duration  . "Seconds.";
-        echo "This is an {$this->type} Video and it's duration is {$this->duration} seconds.";
+        return "This is an {$this->type} Video and it's duration is {$this->duration} seconds.";
     }
 
 }
@@ -27,4 +27,4 @@ class Video{
 //Create Object
 $myVideo = new Video();
 $myVideo->setVideoInfo('MP4','456');
-$myVideo->getVideoInfo();
+echo $myVideo->getVideoInfo();
