@@ -24,7 +24,10 @@ class Chair
 }
 
 //Object
-$myChair = new Chair();
-$myChair->type = "Easy";
-$myChair->numberOfLegs = 4;
-$myChair->ChairDetails();
+$myChair1 = new Chair('Modern', '3');
+$myChair1->ChairDetails();
+echo PHP_EOL;
+$myChair2 = new Chair();
+$myChair2->type = "Classical";
+$myChair2->numberOfLegs = 4;
+$myChair2->ChairDetails();
