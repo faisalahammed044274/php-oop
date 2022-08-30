@@ -5,7 +5,6 @@ abstract class Airplane
 
     //Abstract classes can have properties too. Interface cannot
     public $numberOfWings = 4;
-
     abstract public function canFly();
 
     public function canTakeOff()
