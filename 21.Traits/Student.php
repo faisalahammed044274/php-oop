@@ -30,4 +30,4 @@ $student1->getAllGrades();
 
 // Traits solve a problem in PHP which is multiple inheritance because we can not extend more than one class.
 
-// To solve this issue we can create a class and use inside it as many traits we want.
+// To solve this issue we can create a class and use inside it as many traits we want.22.autoloading.php
