@@ -1,7 +1,11 @@
 <?php
 
-require_once("class1.php");
-require_once("class2.php");
+spl_autoload_register(function($classname){
+    require_once("{$classname}.php");
+});
+
+// require_once("Class1.php");
+// require_once("Class2.php");
 
 $cl1 = new Class1();
 $cl1->showInfo();
